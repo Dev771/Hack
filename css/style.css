@@ -208,7 +208,7 @@ body {
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   box-shadow: var(--shadow);
 }
-
+/* 
 .cards {
   display: flex;
   margin-top: 40px;
@@ -243,12 +243,20 @@ body {
 
 .card:hover {
   box-shadow: var(--shadow-lg);
-}
+} */
 
 .schedule-section {
   position: relative;
   display: flex;
   justify-content: center;
+  font-size: 1.5rem;
+  background-color: var(--colorbackground);
+}
+.judge-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-size: 1.5rem;
   background-color: var(--colorbackground);
 }
@@ -305,6 +313,7 @@ body {
 }
 
 .event-schedule {
+  text-align: center;
   margin-top: 50px;
 }
 
@@ -362,7 +371,7 @@ body {
   width: 80%;
   justify-content: center;
   font-size: 1.5rem;
-  background-color: #eeeeee;
+  background-color: #000000;
 }
 
 .events {
@@ -380,7 +389,7 @@ body {
   height: 85vh;
   width: 100%;
   bottom: 0;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 .parent {
@@ -473,7 +482,7 @@ body {
   text-align: center;
   align-items: center;
   font-size: 1.5rem;
-  background-color: #eeeeee;
+  background-color: #000000;
 }
 
 .sponsors {
@@ -496,7 +505,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: lightgray;
+  background-color: rgb(20, 20, 20);
 }
 
 .sponsors-list-list {
@@ -518,7 +527,7 @@ body {
   align-items: center;
   height: 30vh;
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(0, 0, 0);
 }
 
 .faq-section {
@@ -532,7 +541,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 1.5rem;
-  background-color: #eeeeee;
+  background-color: #000000;
 }
 
 .faqs {
