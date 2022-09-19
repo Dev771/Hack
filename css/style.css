@@ -249,6 +249,8 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  /* text-align: center; */
+  flex-direction: column;
   font-size: 1.5rem;
   background-color: var(--colorbackground);
 }
