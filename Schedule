@@ -1,0 +1,78 @@
+ <!--Schedule -->
+        <div class="container-fluid">
+           <a name="timeline"></a>
+           
+           <div class="row ">
+            <div class="col-lg-12 col-xs-12">
+                <div class="theme_h1">
+              <h1><strong>Schedule</strong></h1>  </div>
+        <a name="timeline"></a>
+        <div class="timeline">
+              
+              <section class="timeline">
+                <ul>
+				<li>
+                    <div  class="container bg-dark " style="color: #F54957; ">
+                      <time>0700hrs onwords</time><strong style="padding-left:2%; font-size:1.5em;">
+                     <i class="fas fa-book-reader" style="padding-right: 2%;"></i>Reporting Time</strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="container bg-dark" style="color: #1EBAD0; ">
+                      <time>0700hrs-0800hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-book-reader" style="padding-right:2%;"></i>Registration</strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div  class="container bg-dark" style="color: #7CBA01 ">
+                      <time>0800hrs onwards</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-laptop-code" style="padding-right:2%;"></i>Start Hacking</strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="container bg-dark" style="color: #F8781F ">
+                      <time>1230hrs-1330hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-poll" style="padding-right:2%;"></i>1st Evaluation</strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="container bg-dark  " style="color: #F54957; ">
+                      <time>1330hrs-1430hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fas fa-utensils" style="padding-right:2%;"></i>Lunch</strong>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="container bg-dark  " style="color: #1EBAD0 ">
+                      <time>1630hrs-1700hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-award" style="padding-right:2%;"></i>2nd Evaluation + Top 10</strong>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="container bg-dark  " style="color: #F8781F">
+                      <time>1700hrs-1800hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-mug-hot" style="padding-right:2%;"></i>Coffee n code</strong>
+                    </div>
+                  </li>
+                  <li> 
+
+                    <div class="container bg-dark  " style="color: #F54957;">
+                      <time>1800hrs-1900hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-laptop-code" style="padding-right:2%;"></i>Final Showdown </strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="container bg-dark" style="color: #1EBAD0;  ">
+                        <a name="rules"></a>
+                      <time>1900hrs-2000hrs</time><strong style="padding-left:2%; font-size:1.5em; ">
+                        <i class="fas fa-award" style="padding-right:2%;"></i>Prize Distribution</strong>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+          </div>
+      </div>
+  </div>
+ 
+        </div>
