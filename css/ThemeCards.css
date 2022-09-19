@@ -9,15 +9,16 @@
 } */
 .container {
     flex-grow: 1;
-    max-width: 960px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 2em;
 }
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 32px;
     margin: 0;
     padding: 0;
@@ -26,14 +27,14 @@
 .cards__item {
     height: 400px;
 }
-.card {
+.card1 {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000;
 }
-.card::before {
+.card1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -44,13 +45,28 @@
     background-color: rgba(255, 255, 255, 0.1);
     pointer-events: none;
 }
-.card:nth-child(1) {
-    background-image: linear-gradient(45deg, #3503ad, #f7308c);
+.card1:nth-child(1) {
+    background: rgb(218,66,78);
 }
-.card:nth-child(2) {
-    background-image: linear-gradient(45deg, #cf0, #09afff);
+.card1:nth-child(2) {
+    background: rgb(30,186,208);
 }
-.card:nth-child(3) {
+.card1:nth-child(3) {
+    background: rgb(124,186,1);
+}
+.card1:nth-child(4) {
+    background : rgb(248,120,31);
+}
+.card1:nth-child(5) {
+    background: #e91e63
+}
+.card1:nth-child(6) {
+    background : #1d9037;
+}
+.card1:nth-child(7) {
+    background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
+}
+.card1:nth-child(8) {
     background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
 }
 .card__frame {
@@ -79,6 +95,7 @@
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+    font-size: 35px;
 }
 .card__overlay {
     position: absolute;
@@ -91,13 +108,14 @@
     height: 52px;
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.505);
     transition: 0.5s;
     cursor: pointer;
+    /* border: 2px solid #000; */
 }
 .card__overlay::before {
-    content: "Read";
-    font-size: 12px;
+    content: "+";
+    font-size: 50px;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -114,20 +132,35 @@
 .card__overlay:hover::before, .card__overlay:focus::before {
     content: none;
 }
-.card:nth-child(1) .card__overlay {
-    background-image: linear-gradient(45deg, #3503ad, #f7308c);
+.card1:nth-child(1) .card__overlay {
+    background-image: linear-gradient(45deg, rgb(218,66,78), #ff0909);
 }
-.card:nth-child(2) .card__overlay {
-    background-image: linear-gradient(45deg, #cf0, #09afff);
+.card1:nth-child(2) .card__overlay {
+    background-image: linear-gradient(45deg, #1351ae,rgb(30,186,208) );
 }
-.card:nth-child(3) .card__overlay {
+.card1:nth-child(3) .card__overlay {
+    background-image: linear-gradient(45deg, rgb(124,186,1), #064503);
+}
+.card1:nth-child(4) .card__overlay {
+    background-image: linear-gradient(45deg, #ae3e0a, rgb(248,120,31));
+}
+.card1:nth-child(5) .card__overlay {
+    background-image: linear-gradient(45deg, #f15a5a, #e91e63);
+}
+.card1:nth-child(6) .card__overlay {
+    background-image: linear-gradient(45deg, #1d9037, #ffeb3b);
+}
+.card1:nth-child(7) .card__overlay {
+    background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
+}
+.card1:nth-child(8) .card__overlay {
     background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
 }
 .card__content {
     z-index: 1;
     padding: 20px;
     line-height: 1.4;
-    font-size: .7em;
+    font-size: .4em;
     opacity: 0;
     visibility: hidden;
     box-sizing: border-box;

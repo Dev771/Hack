@@ -65,7 +65,7 @@
 
   .apply,
   .turington {
-    background-color: white;
+    background-color: var(--colorbackground);
     border-radius: 5%;
     text-align: center;
     padding: 4px;
@@ -134,7 +134,7 @@
   .about-section {
     height: 115vh;
     margin-top: 0;
-    background: white;
+    background: var(--colorbackground);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -238,7 +238,7 @@
     height: 225vh;
     margin-top: 0;
     margin-bottom: 50px;
-  background: linear-gradient(to right bottom, rgb(63, 94, 251), rgb(252, 70, 107));
+    background-color: var(--colorbackground);
     display: flex;
     justify-content: center;
     align-items: center;

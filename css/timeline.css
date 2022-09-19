@@ -1,14 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
  .waao{
-   max-width: 1200px;
-   min-width: 20vw;
+  width: 100%;
+   /* max-width: 1200px;
+   min-width: 20vw; */
    /* margin: left; */
    padding: 0 5%;
    font-size: 100%;
    font-family: "Noto Sans", sans-serif;
    color: #eee9dc;
-   background: #000000;
+   background: var(--colorbackground);
    justify-content: center;
+   /* text-align: center; */
  }
  
  h2 {
@@ -23,7 +25,7 @@
   * ------------------------------------- */
  #timeline {
    list-style: none;
-   margin: 50px 0 30px 120px;
+   margin: 50px 20% 30px 40%;
    padding-left: 30px;
    border-left: 8px solid #eee9dc;
  }
@@ -38,8 +40,8 @@
  .date {
    margin-top: -10px;
    top: 50%;
-   left: -158px;
-   font-size: 0.5em;
+   left: -230px;
+   font-size: 0.9em;
    line-height: 20px;
    position: absolute;
  }
@@ -48,8 +50,8 @@
    margin-top: -10px;
    top: 50%;
    left: -44px;
-   width: 10px;
-   height: 10px;
+   width: 20px;
+   height: 20px;
    background: #000000;
    border: 5px solid #eee9dc;
    border-radius: 50%;

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 :root {
   --shadow: 0 4px 6px -5px rgba(0, 0, 0, 0.15);
   --shadow-lg: 0 8px 10px -5px rgba(0, 0, 0, 0.1);
@@ -254,6 +258,25 @@ body {
   font-size: 1.5rem;
   background-color: var(--colorbackground);
 }
+
+.sponsor-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-top: 0%;
+  /* width: 100vh; */
+  background-color: var(--colorbackground);
+}
+
+.sponsor-schedule {
+  text-align: center;
+  margin-top: 20px;
+  height: 100vh;
+}
+
 .judge-section {
   position: relative;
   display: flex;
@@ -535,6 +558,7 @@ body {
 .faq-section {
   display: flex;
   justify-content: center;
+  background-color: var(--colorbackground);
 }
 
 .faq-section-section {
@@ -543,7 +567,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 1.5rem;
-  background-color: #000000;
+  background-color: var(--colorbackground);
 }
 
 .faqs {
@@ -562,7 +586,7 @@ body {
   height: 85vh;
   width: 100%;
   margin-bottom: 50px;
-  background-color: lightgrey;
+  background-color: var(--colorbackground);
 }
 
 footer {
@@ -572,10 +596,12 @@ footer {
   align-items: center;
   height: 30vh;
   font-size: 1.3rem;
-  background-color: #212529;
+  background-color: var(--colorbackground);
+  /* margin-bottom: 20px; */
 }
 
 footer h4 {
+  font-size: 1.5em;
   padding: 15px;
   color: #d2d1d1;
 }
@@ -598,7 +624,10 @@ footer h4 a {
 footer h4 a span {
   text-decoration: underline;
 }
-
+/* 
+.up{
+  margin-bottom: px;
+} */
 .card-clock {
   background: #12c2e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -765,3 +794,65 @@ footer h4 a span {
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
 }
+
+.hacks{
+  text-align: left;
+  width: 80%;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  ;
+  font-family: 'Source Code Pro', monospace;
+}
+.lights{
+  font-family: "Press Start 2P";
+  animation: neon4 1.5s ease-in-out infinite alternate;
+  font-size: 2em;
+}
+
+.why{
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 1.8em;
+}
+
+@keyframes neon4 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 40px #b6ff00,
+      0 0 70px #b6ff00, 0 0 80px #b6ff00;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 20px #b6ff00,
+      0 0 35px #b6ff00, 0 0 40px #b6ff00;
+  }
+}
+
+.Nicks{
+  animation: effect 5s linear infinite;
+  font-weight: bolder;
+  /* font-size: 1.0em; */
+  cursor: pointer;
+}
+
+@keyframes effect {
+  0% {
+      color: hsl(252,75%,60%);
+  }
+  20%{
+      color: hsl(52,75%,60%);
+  }
+  40%{
+      color: hsl(352,75%,60%);
+  }
+  60%{
+      color: hsl(152,75%,60%);
+  }
+  80%{
+      color: hsl(202,75%,60%);
+  }
+
+  100% {
+      color: rgb(187, 116, 23);
+  }
+}
+

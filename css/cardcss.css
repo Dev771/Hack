@@ -5,18 +5,23 @@
 	 text-decoration: none;
 }
  .panels {
-	 display: flex;
+	 display: grid;
+	 margin-top: 20px;
+	 grid-template-columns: repeat(4 , 1fr);
 	 flex-wrap: wrap;
-   justify-content: center;
-	 padding: 1.5em;
+   	 justify-content: center;
+	 padding: 0 10em 0 10em;
 	 position: relative;
-   gap: 1em;
-   /* width: 80%; */
+    gap: 1em;
+   /* width: 100%; */
 }
  .panels .panel {
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
 	 flex-shrink: 0;
 	 width: 15em;
-	 height: 15em;
+	 height: 25em;
 	 outline: 0.25em solid rgba(26, 97, 203, 0);
 	 transition: 500ms;
 	 position: relative;
